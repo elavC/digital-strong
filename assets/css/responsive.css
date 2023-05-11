@@ -54,6 +54,10 @@
         padding: 16px 16px;
         font-size: 14px;
     }
+
+    #transform-world {
+        background-image: url(../images/woman-code-400px.png);
+    }
 } 
 
 @media (max-width: 420px) {
