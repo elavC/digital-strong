@@ -1,0 +1,75 @@
+@media (max-width: 1000px) {
+    #transform-world {
+        background-image: url(../images/woman-code-900px.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+    }
+}
+
+@media (max-width: 850px) {
+    section.s-modules p {
+        width: 90%;
+    }
+
+    .banner .banner-content p {
+        width: 90%;
+    }
+} 
+
+@media (max-width: 650px) {
+    .banner p {
+        max-width: 400px;
+    }
+
+    #professional-challenges img {
+        width: 80%;
+    }
+
+    #professional-challenges p {
+        width: 90%;
+    }
+
+    section.s-modules .modules-list .module {
+        padding: 16px 32px;
+    }
+
+    #professional-challenges h2 {
+        font-size: 24px;
+    }
+
+    #transform-world p {
+        font-weight: 900;
+        font-size: 2rem;
+    }
+
+} 
+
+@media (max-width: 500px) {
+    .banner .banner-content h1 {
+    font-size: 2rem;
+    }   
+
+    section.s-modules .modules-list .module {
+        padding: 16px 16px;
+        font-size: 14px;
+    }
+} 
+
+@media (max-width: 420px) {
+    .banner .banner-content button {
+        font-size: 16px;
+    }
+    
+    .banner .banner-content h1 {
+        font-size: 1.6rem;
+    }
+    
+    section.s-modules h2 {
+        font-size: 1.6rem;
+    }
+
+    #transform-world {
+        padding: 200px 100px;
+    }
+}
