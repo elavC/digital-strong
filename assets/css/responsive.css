@@ -65,7 +65,15 @@
     }
 
     section.s-modules h2 {
-        font-size: 1.6rem;
+        font-size: 1.2rem;
+    }
+
+    #professional-challenges h2 {
+        font-size: 1.2rem;
+    }
+    
+    #questions h2 {
+        font-size: 1.2rem;
     }
 
     #transform-world {
