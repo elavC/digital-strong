@@ -15,6 +15,10 @@
     .banner .banner-content p {
         width: 90%;
     }
+
+    section.s-modules .modules-list .module {
+        padding: 24px 8px;
+    }
 } 
 
 @media (max-width: 650px) {
@@ -28,10 +32,6 @@
 
     #professional-challenges p {
         width: 90%;
-    }
-
-    section.s-modules .modules-list .module {
-        padding: 16px 32px;
     }
 
     #professional-challenges h2 {
@@ -50,11 +50,6 @@
     font-size: 2rem;
     }   
 
-    section.s-modules .modules-list .module {
-        padding: 16px 16px;
-        font-size: 14px;
-    }
-
     #transform-world {
         background-image: url(../images/woman-code-400px.png);
     }
@@ -66,14 +61,43 @@
     }
     
     .banner .banner-content h1 {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
-    
+
     section.s-modules h2 {
         font-size: 1.6rem;
     }
 
     #transform-world {
         padding: 200px 100px;
+    }
+}
+
+@media (max-width: 350px) {
+    .banner .banner-content button {
+        font-size: 16px;
+    }
+    
+    .banner .banner-content h1 {
+        font-size: 1.4rem;
+    }
+
+    section.s-modules .modules-list .module {
+        padding: 24px 0;
+    }
+    
+    section.s-modules h2 {
+        font-size: 1.2rem;
+    }
+
+    #transform-world {
+        padding: 200px 100px;
+    }
+
+    #professional-challenges h2 {
+        font-size: 1.2rem;
+    }
+    #questions h2 {
+        font-size: 1.2rem;
     }
 }
