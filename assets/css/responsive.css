@@ -1,0 +1,157 @@
+@media (max-width: 1000px) {
+    #transform-world {
+        background-image: url(../images/woman-code-900px.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+    }
+}
+
+@media (max-width: 850px) {
+    section.s-modules p {
+        width: 90%;
+    }
+
+    .banner .banner-content p {
+        width: 90%;
+    }
+
+    section.s-modules .modules-list .module {
+        padding: 24px 8px;
+    }
+} 
+
+@media (max-width: 650px) {
+    .banner p {
+        max-width: 400px;
+    }
+
+    #professional-challenges img {
+        width: 80%;
+    }
+
+    #professional-challenges p {
+        width: 90%;
+    }
+
+    #professional-challenges h2 {
+        font-size: 24px;
+    }
+
+    #transform-world p {
+        font-weight: 900;
+        font-size: 2rem;
+    }
+
+} 
+
+@media (max-width: 500px) {
+    .banner .banner-content h1 {
+    font-size: 2rem;
+    }   
+
+    #transform-world {
+        background-image: url(../images/my-photo-5.png);
+    }
+} 
+
+@media (max-width: 420px) {
+    .banner .banner-content h1 {
+        width: 92%;        
+    }
+
+    .banner .banner-content .logo {
+        padding: 6px;
+        margin: 24px 0 48px 0;
+    }
+
+    .banner .banner-content .logo img{
+        width: 100px;
+    }
+
+    .banner .banner-content a {
+        font-size: 16px;
+    }
+    
+    .banner .banner-content h1 {
+        font-size: 1.4rem;
+    }
+
+    section.s-modules h2 {
+        font-size: 1.2rem;
+    }
+
+    #professional-challenges h2 {
+        font-size: 1.2rem;
+    }
+
+    .s-about .wrapper .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 90%;
+        margin: auto;
+        margin-top: 64px;
+    }
+
+    .s-about .wrapper .container p {
+        width: 80%;
+    }
+
+    .s-about .wrapper .container .img {
+        margin: auto;
+        margin-top: 48px;
+        width: 280px;
+        height: 300px;
+    }
+    
+    #questions h2 {
+        font-size: 1.2rem;
+    }
+
+    #transform-world {
+        padding: 200px 100px;
+    }
+
+    .plan {
+        width: 300px;
+    }
+
+    .plan .wrapper a {
+        font-size: 12px;
+    }
+
+    footer img {
+        width: 150px;
+    }
+
+}
+
+@media (max-width: 350px) {
+    .banner .banner-content button {
+        font-size: 16px;
+    }
+    
+    .banner .banner-content h1 {
+        font-size: 1.4rem;
+    }
+
+    section.s-modules .modules-list .module {
+        padding: 24px 0;
+    }
+    
+    section.s-modules h2 {
+        font-size: 1.2rem;
+    }
+
+    #transform-world {
+        padding: 200px 100px;
+    }
+
+    #professional-challenges h2 {
+        font-size: 1.2rem;
+    }
+    #questions h2 {
+        font-size: 1.2rem;
+    }
+}

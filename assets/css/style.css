@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+section {
+    margin: 100px auto;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(21, 74, 36, 0.3), rgba(0, 0, 0, .6));
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 60px;
+    border-bottom: 1px solid #38ef7d;
+}
+
+.banner .banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.banner .banner-content .logo {
+    margin: 24px 0 48px 0;
+    border-radius: 50%;
+    padding: 8px;
+    background: #00ff55;
+    background: -webkit-linear-gradient(to right, #00ff62, #00ff55);
+    background: linear-gradient(to right, #38ef7d, #00ff55);
+    overflow: hidden;
+}
+
+.banner .banner-content .logo img {
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.banner .banner-content h1 {
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    background-clip: text;
+    color: #00f888a3;
+    text-align: center;
+}
+
+.banner .banner-content p {
+    width: 600px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.banner .banner-content a {
+    background-color: transparent;
+    color: #00f888a3;
+    text-transform: uppercase;
+    font-size: 24px;
+    padding: 16px 32px;
+    border: 1px solid #00f888a3;
+    transition: 0.2s;
+}
+
+.banner .banner-content a:hover {
+    background-color: #00f8884d;
+}
+
+section.s-modules {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+section.s-modules h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+    background-clip: text;
+    color: #00f888a3;
+    text-align: center;
+}
+
+section.s-modules p {
+    width: 800px;
+    text-align: center;
+}
+
+section.s-modules .modules-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+section.s-modules .modules-list .module {
+    background-color: #252525;
+    border: 1px solid #00f888a3;
+    border-radius: 24px;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+section.s-modules .modules-list .module h3 {
+    color: #00f888a3;
+}
+
+.s-about {
+    background-color: #072a0018;
+    padding: 48px 0;
+    border: 1px solid #00f888a3;
+}
+
+.s-about .wrapper h2 {
+    text-align: center;
+}
+
+.s-about .wrapper .container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 64px;
+}
+
+.s-about .wrapper .text {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.s-about .wrapper .img {
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/my-photo-4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+#transform-world {
+    height: 200px;
+    background-size: cover;
+    background-image: url(../images/my-photo-3.png);
+    background-attachment: fixed;
+    border-top: 1px solid #00f888a3;
+    border-bottom: 1px solid #00f888a3;
+    padding: 200px;
+    margin-top: 0;
+}
+
+#transform-world p {
+    font-weight: 900;
+    font-size: 2.5rem;
+    max-width: 250px;
+    text-shadow: 3px 2px #00f888a3;
+}
+
+#professional-challenges {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+#professional-challenges h2 {
+    font-size: 2rem;
+    color: #00f888a3;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+#professional-challenges p {
+    width: 700px;
+    text-align: center;
+}
+
+#professional-challenges h3 {
+    color: #00f888a3;
+}
+
+#professional-challenges ul {
+    align-items: start;
+    width: 40%;
+}
+
+#professional-challenges li {
+    margin: 12px 0;
+}
+
+.plan {
+    border: 1px solid white;
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: #00f888a3 0px 4px 16px 0px;
+}
+
+.plan .wrapper {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.plan .wrapper .list {
+    margin-bottom: 12px;
+}
+
+.plan .wrapper h3 {
+    color: #38ef7d;
+    text-align: center;
+}
+
+.plan .wrapper .list li {
+    margin-top: 8px;
+}
+
+.plan .wrapper .price {
+    margin: auto;
+
+}
+
+.plan .wrapper .price p {
+    font-size: 24px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.plan .wrapper .btn-link {
+    margin: 48px 0 32px 0;
+}
+
+.plan .wrapper a {
+    background-color: transparent;
+    color: #00f888a3;
+    text-transform: uppercase;
+    font-size: 24px;
+    padding: 16px 32px;
+    border: 1px solid #00f888a3;
+    transition: 0.2s;
+}
+
+.plan .wrapper a:hover {
+    background-color: #00f8884d;
+}
+
+#questions {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#questions h2 {
+    font-size: 1.6rem;
+    color: #00f888a3;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    text-align: center;  
+}
+
+#questions div {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#questions div details {
+    border-bottom: 1px solid #00f888a3;
+    padding-bottom: 8px;
+}
+
+#questions div details summary {
+    cursor: pointer;
+}
+
+#questions div details p {
+    margin-top: 16px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    border-top: 1px solid #00f888a3;
+}
+
+footer p {
+    margin-top: 48px;
+}
