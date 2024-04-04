@@ -68,11 +68,11 @@ a {
 
 .banner .banner-content a {
     background-color: transparent;
-    color: #00f888a3;
+    color: #38ef7d;
     text-transform: uppercase;
     font-size: 24px;
     padding: 16px 32px;
-    border: 1px solid #00f888a3;
+    border: 1px solid #38ef7d;
     transition: 0.2s;
 }
 
@@ -258,11 +258,11 @@ section.s-modules .modules-list .module h3 {
 
 .plan .wrapper a {
     background-color: transparent;
-    color: #00f888a3;
+    color: #38ef7d;
     text-transform: uppercase;
     font-size: 24px;
     padding: 16px 32px;
-    border: 1px solid #00f888a3;
+    border: 1px solid #38ef7d;
     transition: 0.2s;
 }
 

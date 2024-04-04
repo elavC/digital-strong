@@ -135,14 +135,13 @@
     .s-about .wrapper .container {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-        width: 90%;
-        margin: auto;
+        width: 100%;
         margin-top: 64px;
     }
 
     .s-about .wrapper .container p {
-        width: 80%;
+        max-width: 85%;
+        margin: auto;
     }
 
     .s-about .wrapper .container .img {
