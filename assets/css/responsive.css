@@ -1,6 +1,6 @@
 @media (max-width: 1000px) {
     #transform-world {
-        background-image: url(../images/woman-code-900px.png);
+        background-image: url(../images/my-photo-5.png);
         background-size: cover;
         background-repeat: no-repeat;
         height: 400px;
@@ -43,16 +43,44 @@
         font-size: 2rem;
     }
 
-} 
-
-@media (max-width: 500px) {
-    .banner .banner-content h1 {
-    font-size: 2rem;
-    }   
-
-    #transform-world {
-        background-image: url(../images/my-photo-5.png);
+    .s-about .wrapper .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 90%;
+        margin-top: 64px;
+        margin: auto;
     }
+
+    .s-about .wrapper .container h3 {
+        margin-top: 48px;
+        text-align: center;
+    }
+
+    .s-about .wrapper .container p {
+        text-align: center;
+    }
+
+    .s-about .wrapper .container .img {
+        margin: auto;
+        margin-top: 56px;
+        width: 280px;
+        height: 300px;
+    }
+
+    .plan {
+        width: 350px;
+    }
+
+    .plan .wrapper a {
+        font-size: 16px;
+    }
+
+    footer img {
+        width: 150px;
+    }
+    
+
 } 
 
 @media (max-width: 420px) {
