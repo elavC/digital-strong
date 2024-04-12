@@ -1,13 +1,42 @@
-@media (max-width: 1000px) {
-    #transform-world {
-        background-image: url(../images/my-photo-5.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 400px;
+@media (max-width: 1100px) {
+    .banner .banner-content h1 {
+        font-weight: 600;
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        background-clip: text;
+        color: black;
+        text-align: center;
     }
-}
+
+    section.s-modules .modules-list .module {
+        width: 200px;
+    }
+
+    .s-about {
+        width: 60%;
+    }
+
+    .s-about .wrapper .text {
+        width: 80%;
+    }
+
+ }
+
 
 @media (max-width: 850px) {
+    .banner .img {
+        display: none;
+    }
+
+    .banner .banner-content {
+        margin: auto;
+        margin-top: 24px;
+    }
+
+    .banner .banner-content p {
+        padding: 12px 16px;
+    }
+
     section.s-modules p {
         width: 90%;
     }
@@ -19,11 +48,55 @@
     section.s-modules .modules-list .module {
         padding: 24px 8px;
     }
+
+    #professional-challenges .container {
+        width: 70%;
+
+    }
+
+    #professional-challenges .container .wrapper {
+        padding: 24px;
+        width: 100%;
+    }
 } 
 
 @media (max-width: 650px) {
+
+
+    .img-mobile {
+        display: flex;
+        width: 90%;
+        border-radius: 12px;
+        margin-top: 48px;
+    }
+
     .banner p {
         max-width: 400px;
+    }
+
+    .banner .banner-content {
+        gap: 32px;
+    }
+
+    section.s-modules .modules-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.s-modules .modules-list .module {
+        width: 80%;
+    }
+
+    .s-about {
+        width: 90%;
+        height: 100vh;
+    }
+
+    #professional-challenges .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
     }
 
     #professional-challenges img {
@@ -109,7 +182,6 @@
 
     .banner .banner-content .logo {
         padding: 6px;
-        margin: 24px 0 48px 0;
     }
 
     .banner .banner-content .logo img{
