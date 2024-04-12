@@ -9,6 +9,10 @@ body {
     color: black;
 }
 
+h2 {
+    text-align: center;
+}
+
 section {
     margin: 100px auto;
 }
@@ -124,9 +128,9 @@ section.s-modules .modules-list {
 }
 
 section.s-modules .modules-list .module {
-    background: #EECDA3; 
+    /* background: #EECDA3; 
     background: -webkit-linear-gradient(to right, #c39e84, #eecda3a5); 
-    background: linear-gradient(to right, #c39e84, #eecda3a5);
+    background: linear-gradient(to right, #c39e84, #eecda3a5); */
     border-radius: 4px;
     text-align: center;
     margin: auto;
@@ -140,7 +144,7 @@ section.s-modules .modules-list .module {
 }
 
 section.s-modules .modules-list .module h3 {
-    color: #646464;
+    color: #c39e84;
     font-size: 24px;
 }
 
@@ -165,18 +169,14 @@ section.s-modules .modules-list .module img {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
-.s-about .wrapper {
-    margin: auto;
-}
-
-.s-about .wrapper h2 {
+.s-about  h2 {
     text-align: center;
     font-weight: bold;
     font-size: 24px;
     margin: 24px 0;
 }
 
-.s-about .wrapper .text {
+.s-about .text {
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -184,13 +184,13 @@ section.s-modules .modules-list .module img {
     padding: 24px 24px;
     gap: 16px;
     border-radius: 12px;
-    background-color: #eecda372;
+    background-color: #eecda3bb;
     color: black;
     margin: auto;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.s-about .wrapper .text p {
+.s-about .text p {
     font-weight: 600;
 }
 

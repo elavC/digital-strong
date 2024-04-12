@@ -90,6 +90,16 @@
     .s-about {
         width: 90%;
         height: 100vh;
+        position: relative;
+    }
+
+    .s-about .text {
+        border: 1px solid #646464;
+        width: 80%;
+        position: absolute;
+        bottom: 12px;
+        left: 0;
+        right: 0;
     }
 
     #professional-challenges .container {
